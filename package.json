@@ -1,0 +1,18 @@
+{
+  "name": "jsstrings",
+  "version": "1.0.0",
+  "description": "Find czech fragments in typescript codebase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^4.5.0",
+    "chalk": "^4.1.0",
+    "fast-glob": "^3.2.4",
+    "languagedetect": "^2.0.0"
+  }
+}
